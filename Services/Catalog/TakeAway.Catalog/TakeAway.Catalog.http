@@ -1,0 +1,6 @@
+@TakeAway.Catalog_HostAddress = http://localhost:5239
+
+GET {{TakeAway.Catalog_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
