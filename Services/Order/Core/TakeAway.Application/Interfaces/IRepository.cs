@@ -11,7 +11,7 @@ namespace TakeAway.Application.Interfaces
         Task<List<T>> GetAllAsync();
         Task CreateAsync(T entity);
         Task UpdateAsync(T entity);
-        Task DeleteAsync(T entity);
+        Task DeleteAsync(int id);
         Task<T> GetByIdAsync(int id);
     }
 }

@@ -11,8 +11,4 @@
     <ProjectReference Include="..\..\Core\TakeAway.Domain\TakeAway.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>
